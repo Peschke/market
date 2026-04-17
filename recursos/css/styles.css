@@ -1,5 +1,44 @@
 
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+
+}
+
 header {
     background-color: #465B75;
-    height: 150rem;
+    max-width: auto;
+    height: 250px;
+}
+
+.navbar a {
+    color: #808080;
+    text-decoration: none;
+}
+
+body {
+    background-color: #DEE9F7;
+}
+
+main {
+        display: flex;
+}
+
+.contenido {
+    background-color: #ffffff;
+    border: 2px solid #6A6F75;
+}
+
+.principal a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.boton {
+    display: flex;
+    flex-direction: column;
 }
